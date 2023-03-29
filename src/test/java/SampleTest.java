@@ -7,7 +7,7 @@ public class SampleTest {
 
     @Test
 
-    public void Test1() throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
@@ -15,7 +15,10 @@ public class SampleTest {
 
         Thread.sleep(3000);
 
+
         System.out.println("Hello World");
+
+        driver.close();
     }
 
 }
