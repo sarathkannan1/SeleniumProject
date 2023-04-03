@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f306a133-5531-4d3a-bafa-415570154b60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UITests/TestOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UITests/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UITests/SampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -23,6 +28,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8548f162-a36f-4c14-80d6-9d9d59bbd35f" />
+        <option name="url" value="https://github.com/sarathkannan1/SeleniumProject.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,22 +63,124 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_directory_selection": "/Users/sarathdayala/TestProject/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SampleTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestOne">
     <configuration name="SampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SampleTest" />
+      <option name="MAIN_CLASS_NAME" value="UITests.SampleTest" />
       <module name="TestProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleTest.main" type="TestNG" nameIsGenerated="true">
       <module name="TestProject" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleTest" />
-      <option name="METHOD_NAME" value="Test1" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="UITests" />
+      <option name="MAIN_CLASS_NAME" value="UITests.SampleTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UITests" />
+      <option name="MAIN_CLASS_NAME" value="UITests.TestOne" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOne.NewTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UITests" />
+      <option name="MAIN_CLASS_NAME" value="UITests.TestOne" />
+      <option name="METHOD_NAME" value="NewTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOne.ab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UITests" />
+      <option name="MAIN_CLASS_NAME" value="UITests.TestOne" />
+      <option name="METHOD_NAME" value="ab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOne.openQAVBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UITests" />
+      <option name="MAIN_CLASS_NAME" value="UITests.TestOne" />
+      <option name="METHOD_NAME" value="openQAVBox" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -70,8 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestOne" />
+        <item itemvalue="TestNG.TestOne.openQAVBox" />
+        <item itemvalue="TestNG.TestOne.ab" />
         <item itemvalue="Application.SampleTest" />
-        <item itemvalue="TestNG.SampleTest.Test1" />
+        <item itemvalue="TestNG.TestOne.NewTest" />
       </list>
     </recent_temporary>
   </component>

@@ -15,7 +15,7 @@ public class SampleTest {
         WebDriver driver = new ChromeDriver();
         driver.get("https://qavbox.github.io/demo");
 
-        Thread.sleep(3000);
+        Thread.sleep(1000);
 
 
         System.out.println("Hello World");
