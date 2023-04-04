@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f306a133-5531-4d3a-bafa-415570154b60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UITests/TestOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UITests/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UITests/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UITests/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UITests/TestOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestOne">
+  <component name="RunManager" selected="TestNG.TestOne.openQAVBox">
     <configuration name="SampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UITests.SampleTest" />
       <module name="TestProject" />
@@ -190,8 +187,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestOne" />
         <item itemvalue="TestNG.TestOne.openQAVBox" />
+        <item itemvalue="TestNG.TestOne" />
         <item itemvalue="TestNG.TestOne.ab" />
         <item itemvalue="Application.SampleTest" />
         <item itemvalue="TestNG.TestOne.NewTest" />
