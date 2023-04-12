@@ -21,6 +21,7 @@ public class TestOne {
             {
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
+                options.setHeadless(false);
                 options.addArguments("--remote-allow-origins=*");
                 driver = new ChromeDriver(options);
             }
@@ -30,14 +31,6 @@ public class TestOne {
                 driver = new FirefoxDriver();
 
             }
-            //WebDriverManager.chromedriver().setup();
-            //ChromeOptions options = new ChromeOptions();
-            //options.setHeadless(false);
-            //options.addArguments("--remote-allow-origins=*");
-            //WebDriver driver = new ChromeDriver(options);
-
-            //WebDriverManager.chromedriver().setup();
-            //WebDriver driver = new ChromeDriver();
             driver.get("https://qavbox.github.io/demo");
             Assert.assertTrue(driver.getCurrentUrl().contains("github"), "Does not match");
             driver.close();
