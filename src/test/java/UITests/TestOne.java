@@ -11,8 +11,9 @@ import org.testng.annotations.Test;
 
 public class TestOne {
 
-        @Parameters("Browser")
+
         @Test
+        @Parameters("Browser")
         public void openQAVBox(String browsername)
         {
             System.out.println("Parameter value is:" +browsername);

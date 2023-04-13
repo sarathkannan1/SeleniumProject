@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f306a133-5531-4d3a-bafa-415570154b60" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UITests/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UITests/SampleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UITests/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UITests/TestOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +116,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SampleTest.openBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UITests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UITests" />
+      <option name="MAIN_CLASS_NAME" value="UITests.SampleTest" />
+      <option name="METHOD_NAME" value="openBox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestOne" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProject" />
       <extension name="coverage">
@@ -123,24 +145,6 @@
       <option name="PACKAGE_NAME" value="UITests" />
       <option name="MAIN_CLASS_NAME" value="UITests.TestOne" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOne.NewTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UITests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UITests" />
-      <option name="MAIN_CLASS_NAME" value="UITests.TestOne" />
-      <option name="METHOD_NAME" value="NewTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -186,10 +190,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestOne.openQAVBox" />
+        <item itemvalue="TestNG.SampleTest.openBox" />
         <item itemvalue="TestNG.TestOne" />
         <item itemvalue="TestNG.TestOne.ab" />
         <item itemvalue="Application.SampleTest" />
-        <item itemvalue="TestNG.TestOne.NewTest" />
       </list>
     </recent_temporary>
   </component>
