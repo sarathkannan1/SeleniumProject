@@ -1,29 +1,27 @@
-pipeline {
+pipeline 
+{
     agent any
 
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Build App'
+    stages 
+    {
+        stage('Build') 
+        {
+            steps 
+            {
+               git 'https://github.com/sarathkannan1/SeleniumProject.git'
+               bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
-        }
-        stage('Test') {
-            steps {
-                echo 'Test App'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploy App'
-            }
-        }
-    }
-     post
-   {
+        
+            post
+            {
+                  success
+                  {
+                    junit '**/target/surefire-reports/TEST-*.xml'
+                    archiveArtifacts 'target/*.jar'
+                  }
+             }
     
-   always
-   {
-        emailext body: 'Summary', subject: 'Pipeline Status', to: 'sarathkannan1@gmail.com'
-   }
-   }
+   
+          }
+    }
 }
