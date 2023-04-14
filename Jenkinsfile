@@ -1,6 +1,11 @@
 pipeline 
 {
     agent any
+    
+    tools
+    {
+        mavn "MAVEN_HOME"
+    }
 
     stages 
     {
