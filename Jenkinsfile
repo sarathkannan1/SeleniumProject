@@ -1,32 +1,21 @@
-pipeline 
-{
+pipeline {
     agent any
-    
-    tools
-    {
-        mavn "MAVEN_HOME"
-    }
 
-    stages 
-    {
-        stage('Build') 
-        {
-            steps 
-            {
-               git 'https://github.com/sarathkannan1/SeleniumProject.git'
-               bat "mvn -Dmaven.test.failure.ignore=true clean package"
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
             }
-        
-            post
-            {
-                  success
-                  {
-                    junit '**/target/surefire-reports/TEST-*.xml'
-                    archiveArtifacts 'target/*.jar'
-                  }
-             }
-    
-   
-          }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
     }
 }
