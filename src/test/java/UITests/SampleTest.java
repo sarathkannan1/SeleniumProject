@@ -10,8 +10,9 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class SampleTest {
-    @Parameters("Browser")
+
     @Test
+    @Parameters("Browser")
 
     public void openBox(String browsername) {
 
@@ -23,7 +24,7 @@ public class SampleTest {
         {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-            options.setHeadless(false);
+            //options.setHeadless(false);
             options.addArguments("--remote-allow-origins=*");
             driver = new ChromeDriver(options);
         }
