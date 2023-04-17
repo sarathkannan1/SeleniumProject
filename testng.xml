@@ -3,6 +3,7 @@
 <suite name="Suite">
 
     <test thread-count="5" name="Test1">
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="UITests.TestOne"/>
             <class name="UITests.SampleTest"/>
